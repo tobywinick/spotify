@@ -12,7 +12,7 @@ Throughout the year, I really took a step in listening to genres that were not r
 At the end of the year, I had newly acquired R data analysis and visualization skills, and wanted to put them to work. My goal for this project was to navigate a dataset with a variety of variables, work on research skills such as recoding variables and cleaning datasets, and practice data visualization with ggplot and related functions.
 
   
-  
+All code can be found on [github](https://github.com/tobywinick/spotify/blob/main/spotify.R).
   
 
 # Data
