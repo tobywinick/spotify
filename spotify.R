@@ -157,12 +157,7 @@ for (i in 1:345){
     data2$BigGenre[i]<-"new wave"
   }
 }
-#OHHH HOLY ROPEMAXX I GYATT IT
 
-newgenres$other
-
-data2$Genre[20]
-"pop rock" %in% newgenres$pop
 
 data$BigGenre<-NA
 data$BigGenre<-data2$BigGenre
@@ -206,7 +201,6 @@ meansd<-data.frame(Category=c("Danceability","Energy","Acousticness","Valence"),
                   Mean=c(mean(data$Danceability), mean(data$Energy), mean(data$Acousticness), mean(data$Valence)),
                   SD=c(sd(data$Danceability), sd(data$Energy), sd(data$Acousticness), sd(data$Valence))
   )
-meansd
 
 ggplot(data=meansd, aes(x=Category, y=Mean))+geom_bar(stat="identity",fill="orange",color='black')+ylim(0,1) +
   ggtitle("Means of Selected Categories")
@@ -223,7 +217,7 @@ memeansd<-data.frame(Category=c("Danceability","Energy","Acousticness","Valence"
 ggplot(data=memeansd, aes(x=Category, y=Mean))+geom_bar(stat="identity",fill="wheat",color='black')+ylim(0,1) +
   ggtitle("Mean of Selected Categories (Midwest Emo Songs Only)")
 
-#NO MIDWEST EMO
+#no midwest emo
 
 nomefilter<-filter(data,Genre!="midwest emo")
 
